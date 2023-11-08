@@ -1,0 +1,248 @@
+@font-face { 
+    font-family: "Blogger Sans";
+    src: url("/font/Blogger_Sans-Medium.otf");
+    src: url("/font/Blogger_Sans-Bold.otf");
+    src: url("/font/Blogger_Sans-Light.otf");
+    src: url("/font/Blogger_Sans.otf");
+}
+*{
+    
+    color: white;
+}
+
+
+body {
+  font-family: "Blogger Sans"; 
+}
+
+.wrapper{
+    width: 1320px;
+    margin: 0px auto;
+}
+.header{
+    padding-top: 46px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-family: "Blogger Sans";
+}
+.menu li{
+    list-style-type: none;
+    margin-right: 34px;
+    font-family: "Blogger Sans";
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    line-height: 20px; 
+    text-transform: uppercase;
+}
+
+.menu a,
+.menu .active {
+  display: block;
+  text-transform: uppercase;
+}
+
+.main__image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+button {
+    display: inline-block;
+    vertical-align: middle;
+}
+  .phone{
+    width: 50px;
+    height: 50px;
+    background-color: #FF8D30;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+.phone img{
+    width: 18px;
+    height: 18px;
+}
+.mail{
+    width: 50px;
+    height: 50px;
+    background-color: #FFBD30;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    padding: 16px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.mail img{
+    width: 18px;
+    height: 18px;
+}
+.reg{
+    width: 188px;
+    height: 50px;
+    background-color: #FFBD30;
+    border: none;
+    font-family: "Blogger Sans";
+    border-radius: 100px;
+    color: #161C35;
+    padding: 16px 29px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.authorization{
+    display: flex;
+}
+.phone img{
+    justify-items: center;
+    align-items: center;
+}
+.mail img{
+    justify-items: center;
+    align-items: center;
+}
+.title{
+    width: 38%;
+    height: 210px;
+    color: #FFF;
+    font-family: "Blogger Sans";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; 
+    margin-top: 110px;
+    
+}
+.traveller{
+    width: 431px;
+    height: 640px;
+    flex-shrink: 0;
+    margin-top: 10px;
+    margin-right: 59px;
+}
+.first-page{
+    display: flex;
+    justify-content: space-between;
+}
+.text__block{
+    margin-top: 122px;
+}
+.text__block p:first-of-type {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 32px;
+    width: 264px;
+    height: 64px;
+    margin-bottom: 45px;
+  }
+  
+  .text__block p:last-of-type {  
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24.4px;
+    width: 246px;
+    height: 74px;
+  }
+  .block{
+    display: flex;
+    position: relative;
+    top: -123px;
+    left:0;
+  }
+  .block__first{
+    background-color: #FF8D30;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: 20px;
+    width: 375px;
+    height: 107px;
+    flex-shrink: 0;
+}
+  .block__second{
+    background-color: #FFA530;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 107px;
+    flex-shrink: 0;
+  }
+  .block__third{
+    background-color: #FFBD30;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 107px;
+    flex-shrink: 0;
+  }
+  .block__fourth{
+    background-color: #FFD74B;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    width: 375px;
+    height: 107px;
+    flex-shrink: 0;
+  }
+.block__first p{
+    padding: 30px;
+    color: #161C35;
+    font-family: "Blogger Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .block__second p{
+    padding: 30px;
+    color: #161C35;
+    font-family: "Blogger Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .block__third p{
+    padding: 30px;
+    color: #161C35;
+    font-family: "Blogger Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+  }
+  .block__fourth p{
+    padding: 30px;
+    color: #161C35;
+    font-family: "Blogger Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+
